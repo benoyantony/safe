@@ -1,0 +1,45 @@
+Configuration
+
+ Safe can be configured by adding a core-site.xml in its classpath. The default configuration is specified in core-default.xml. The default configuration is below:
+
+----------------------------------------
+<configuration>
+<property>
+  <name>authorizationservice.impl</name>
+  <value>org.apache.safe.service.FileBasedAuthorizationService</value>
+  <description>Class implementing the AuthorizationService
+  </description>
+</property>
+<property>
+  <name>acls.file</name>
+  <value>/apache/safe/acls.xml</value>
+  <description>File containing acls for authorization
+  </description>
+</property>
+<property>
+  <name>groupservice.impl</name>
+  <value>org.apache.safe.service.ShellBasedGroupService</value>
+  <description>Class implementing the GroupService
+  </description>
+</property>
+<property>
+  <name>keyservice.impl</name>
+  <value>org.apache.safe.service.KeyStoreBasedKeyService</value>
+  <description>Class implementing the KeyService
+  </description>
+</property>
+<property>
+  <name>keystore.file</name>
+  <value>/apache/safe/passwords.jceks</value>
+  <description>file storing keys
+  </description>
+</property>
+<property>
+  <name>keystore.password.file</name>
+  <value>/apache/safe/password.properties</value>
+  <description>file storing password to keystore
+  </description>
+</property>
+</configuration>
+----------------------------------------
+

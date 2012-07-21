@@ -1,0 +1,17 @@
+Java Client Code
+
+ From Java , the keys can retrieved using SafeClient. The code snippet is below :
+
+----------------------------------------
+     String keystoreUrl = "http://localhost:8080/safe/safe" ; 
+
+     Strong[] keyNames = {"key1", "key2" };
+  
+
+   SafeClient safeClient = new SafeClient(keystoreUrl); 
+
+   byte[][] keyValues = safeClient.getValues(keyNames) ;
+
+----------------------------------------
+
+  The class SafeClient is part of safe-core.jar

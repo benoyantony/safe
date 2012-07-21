@@ -1,0 +1,34 @@
+ -----
+ Safe Key Store 
+ -----
+
+Safe Key Store 
+
+* Summary
+
+ Safe is an open source web service based keystore to securely store secret keys and passwords. Safe authenticates the user, checks whether the user is authorized to read the secret and returns the secret.
+It is easy to plug in different mechanisms for authentication,authorization and Key storage. Safe is developed in Java and built using maven.
+
+* License
+
+  Safe is distributed under {{{http://www.apache.org/licenses/} Apache License 2.0}}.
+
+* Source Repository
+
+  {{https://github.com/benoyantony/safe.git}}
+
+* User Documentation
+	
+    {{{ authentication.html} Authentication}}\
+    {{{ authorization.html} Authorization}}\
+    {{{ keystorage.html} Key Storage}}\
+    {{{ configuration.html} Configuration}}\
+    {{{ webservice.html} Web Service}}\
+    {{{ javaclient.html} Java Client}}\
+    {{{ installation.html} Download and Installation}}
+
+
+
+
+
+

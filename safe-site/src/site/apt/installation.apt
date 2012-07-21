@@ -1,0 +1,15 @@
+Download 
+
+   https://github.com/benoyantony/safe/downloads
+
+   Download the WAR file.
+
+Installation
+
+   1. Setup ACL file at/apache/safe/acls.xml
+
+   2. Setup keystore at /apache/safe/safe.jceks
+
+   3. Add the password to /apache/safe/password.properties as keystore.password=<passsword for the keystore>
+
+   Note: These locations can changed by providing core-site.xml file in the classpath.

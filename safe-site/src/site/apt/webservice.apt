@@ -1,0 +1,32 @@
+WebService API
+  
+  1. Get a list of keys - http://localhost:8080/safe/safe?action=getkeys&key=pass,key&user.name=bantony
+  
+  The mandatory parameters are\ 
+     action = getkeys\
+     key= comma separated list of key names\
+     user.name is needed for Simple Authentication mechanism.
+
+  The returned value is a list of keys. The key value is Base64 encoded.
+
+----------------------------------------
+<keys>
+  <key id="pass">cGFzc3dvcmQ=</key>
+  <key id="key">dGVzdA==</key>
+</keys>
+----------------------------------------
+
+
+
+  2. Get a single key - http://localhost:8080/safe/safe?action=getkey&key=pass&user.name=bantony
+
+  The mandatory parameters are\
+     action = getkey\
+     key= key name\
+     user.name is needed for Simple Authentication mechanism.
+
+  The returned value is a list of keys. The key value is Base64 encoded.
+
+----------------------------------------
+<key id="pass">cGFzc3dvcmQ=</key>
+----------------------------------------

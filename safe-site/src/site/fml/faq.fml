@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<faqs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/FML/1.0"
+  xsi:schemaLocation="http://maven.apache.org/FML/1.0 http://maven.apache.org/xsd/fml-1.0.xsd"
+  id="General FAQ">
+  <part id="General">
+    <faq id="config">
+      <question>How to configure Safe?</question>
+      <answer>
+        <p>
+          Safe can be configured by creating core-site.xml and placing core-site.xml in the classpath. The default configuration is preset in core-default.xml. Various properties can be overridden in core-site.xml. Please see </p>
+      </answer>
+    </faq>
+    <faq id="question">
+      <question>I have a few questions. How do I get answers?</question>
+      <answer>
+        <p>
+          Please use the forum at 
+        </p>
+      </answer>
+    </faq>
+    <faq id="contribute">
+      <question>How do i contribute to Safe?</question>
+      <answer>
+        <p>
+          We appreciate that. To contribute, please create an issue at   and then attach a git patch. We'll review it, improve it and then commit it.
+        </p>
+      </answer>
+    </faq>
+  </part>
+</faqs>
