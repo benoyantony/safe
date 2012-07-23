@@ -6,10 +6,33 @@
   <artifactId>safe</artifactId>
   <version>0.1</version>
   <packaging>pom</packaging>
-
+  <url>https://github.com/benoyantony/safe</url>
   <modules>
     <module>safe-core</module>
     <module>safe-webapp</module>
     <module>safe-site</module>
   </modules>
+<build>
+  <plugins>
+    <plugin>
+      <groupId>com.github.github</groupId>
+      <artifactId>site-maven-plugin</artifactId>
+      <version>0.6</version>
+      <configuration>
+        <message>Creating site for ${project.version}</message>
+      </configuration>
+      <executions>
+        <execution>
+          <goals>
+            <goal>site</goal>
+          </goals>
+          <phase>site</phase>
+        </execution>
+      </executions>
+    </plugin>
+  </plugins>
+</build>
+<properties>
+  <github.global.server>github</github.global.server>
+</properties>
 </project>

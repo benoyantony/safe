@@ -4,12 +4,10 @@
 
   <groupId>org.apache.safe</groupId>
   <artifactId>safe-core</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>0.1</version>
   <packaging>jar</packaging>
-
   <name>safe-core</name>
-  <url>http://maven.apache.org</url>
-
+  <url>https://github.com/benoyantony/safe</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
