@@ -1,0 +1,10 @@
+Building Safe
+
+  get source code:
+  git clone https://github.com/benoyantony/safe.git
+
+  build safe :
+  mvn install
+
+  Develop in Eclipse
+  mvn eclipse
