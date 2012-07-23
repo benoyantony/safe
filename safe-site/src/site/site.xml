@@ -3,7 +3,7 @@
 <project name="Maven" xmlns="http://maven.apache.org/DECORATION/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/DECORATION/1.0.0 http://maven.apache.org/xsd/decoration-1.0.0.xsd">
   <bannerLeft>
-    <name>Maven</name>
+    <name>Apache Safe KeyStore</name>
     <src>http://maven.apache.org/images/apache-maven-project.png</src>
     <href>http://maven.apache.org/</href>
   </bannerLeft>
@@ -14,11 +14,11 @@
   <body>
     <links>
       <item name="Apache" href="http://www.apache.org/" />
-      <item name="Maven 1.0" href="http://maven.apache.org/"/>
-      <item name="Maven 2" href="http://maven.apache.org/maven2/"/>
+      <item name="keytool-ext" href="http://github.com/benoyantony/keytool-ext/wiki" />
     </links>
 
     <menu name="Maven 2.0">
+      <item name="Main" href="index.html"/>
       <item name="FAQ" href="faq.html"/>
       <item name="Example" href="javaclient.html"/>
     </menu>

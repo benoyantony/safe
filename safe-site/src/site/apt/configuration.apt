@@ -1,5 +1,7 @@
 Configuration
 
+  [ {{{http://benoyantony.github.com/safe/} Go back}} ]
+
  Safe can be configured by adding a core-site.xml in its classpath. The default configuration is specified in core-default.xml. The default configuration is below:
 
 ----------------------------------------

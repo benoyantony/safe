@@ -1,5 +1,7 @@
 
 Key Storage
 
+  [ {{{http://benoyantony.github.com/safe/} Go back}} ]
+
  The secrets has to be stored securely. In the current release, Safe provides Java KeyStore based key storage. The keys are stored in Java KeyStore.J aver keystore is a keystorage mechanism provided as part of JDK. The current implementation uses JCEKS as the storage protocol.. There is a keytool utility to manage the keystore. Please find the keytool guide at {{{http://docs.oracle.com/javase/6/docs/technotes/tools/solaris/keytool.html} keytool - Key and Certificate Management Tool}}. A few missing functionalities like storing a password are provided using the keytool-ext library.  Its available at {{{https://github.com/benoyantony/keytool-ext} keytool-ext}}. 
 `

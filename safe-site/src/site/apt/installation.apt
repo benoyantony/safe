@@ -1,6 +1,8 @@
 Download 
 
-   https://github.com/benoyantony/safe/downloads
+  [ {{{http://benoyantony.github.com/safe/} Go back}} ]
+
+   {{https://github.com/benoyantony/safe/downloads}}
 
    Download the WAR file.
 
@@ -11,5 +13,7 @@ Installation
    2. Setup keystore at /apache/safe/safe.jceks
 
    3. Add the password to /apache/safe/password.properties as keystore.password=<passsword for the keystore>
+  
+   4. Deploy the downloaded safe.war file the servlet container.
 
-   Note: These locations can changed by providing core-site.xml file in the classpath.
+   Note: The file locations can changed by providing core-site.xml file in the classpath

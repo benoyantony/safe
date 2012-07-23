@@ -14,7 +14,7 @@
       <question>I have a few questions. How do I get answers?</question>
       <answer>
         <p>
-          Please use the forum at 
+          Please use the forum at <a href="https://github.com/benoyantony/safe/issues">https://github.com/benoyantony/safe/issues</a>
         </p>
       </answer>
     </faq>
