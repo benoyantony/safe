@@ -1,6 +1,6 @@
 Java Client Code
 
-  [ {{{http://benoyantony.github.com/safe/} Go back}} ]
+  {{{http://benoyantony.github.com/safe/} Go back}}
 
  From Java , the keys can retrieved using SafeClient. The code snippet is below :
 

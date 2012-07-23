@@ -1,10 +1,6 @@
- -----
- Safe Key Store 
- -----
-
 Authentication
 
-  [ {{{http://benoyantony.github.com/safe/} Go back}} ]
+   {{{http://benoyantony.github.com/safe/} Go back}} 
 
   Safe uses Alfredo library for authentication. Alfredo provides the following authentication mechanisms - 1) SPNego based authentication 2)  Simple authentication using URL parameters. It is possible to develop and plug in additional authentication mechanisms. 
   By default, Simple authentication is configured. This is done in WEB-INF/web.xml

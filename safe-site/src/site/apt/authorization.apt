@@ -1,6 +1,6 @@
 Authorization
 
-  [ {{{http://benoyantony.github.com/safe/} Go back}} ]
+  {{{http://benoyantony.github.com/safe/} Go back}}
 
  Users can access only those keys which they are authorized to access. In the current release, Safe provides ACL Based Authorization. There is an ACL corresponding to each key and ACLs are stored in a file. 
 
