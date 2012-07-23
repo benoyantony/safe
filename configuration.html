@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Maven - </title>
+    <style type="text/css" media="all">
+      @import url("./css/maven-base.css");
+      @import url("./css/maven-theme.css");
+      @import url("./css/site.css");
+    </style>
+    <link rel="stylesheet" href="./css/print.css" type="text/css" media="print" />
+          </head>
+  <body class="composite">
+    <div id="banner">
+                  <a href="http://maven.apache.org/" id="bannerLeft">
+    
+                                    <img src="http://maven.apache.org/images/apache-maven-project.png" alt="" />
+    
+            </a>
+                          <span id="bannerRight">
+    
+                                    <img src="http://maven.apache.org/images/maven-small.gif" alt="" />
+    
+            </span>
+            <div class="clear">
+        <hr/>
+      </div>
+    </div>
+    <div id="breadcrumbs">
+          
+  
+
+  
+    
+  
+  
+    
+            <div class="xleft">
+        Last Published: 2012-07-23
+                      </div>
+            <div class="xright">            <a href="http://www.apache.org/" class="externalLink">Apache</a>
+            |
+                <a href="http://github.com/benoyantony/keytool-ext/wiki" class="externalLink">keytool-ext</a>
+            
+  
+
+  
+    
+  
+  
+    
+  </div>
+      <div class="clear">
+        <hr/>
+      </div>
+    </div>
+    <div id="leftColumn">
+      <div id="navcolumn">
+           
+  
+
+  
+    
+  
+  
+    
+                   <h5>Maven 2.0</h5>
+            <ul>
+              
+    <li class="none">
+                    <a href="index.html">Main</a>
+          </li>
+              
+    <li class="none">
+                    <a href="faq.html">FAQ</a>
+          </li>
+              
+    <li class="none">
+                    <a href="javaclient.html">Example</a>
+          </li>
+          </ul>
+                                           <a href="http://maven.apache.org/" title="Built by Maven" class="poweredBy">
+            <img alt="Built by Maven" src="./images/logos/maven-feather.png"></img>
+          </a>
+                       
+  
+
+  
+    
+  
+  
+    
+        </div>
+    </div>
+    <div id="bodyColumn">
+      <div id="contentBox">
+        <div class="section"><h2>Configuration</h2>
+<p><a class="externalLink" href="http://benoyantony.github.com/safe/"> Go back</a></p>
+<p>Safe can be configured by adding a core-site.xml in its classpath. The default configuration is specified in core-default.xml. The default configuration is below:</p>
+<div class="source"><pre>&lt;configuration&gt;
+&lt;property&gt;
+  &lt;name&gt;authorizationservice.impl&lt;/name&gt;
+  &lt;value&gt;org.apache.safe.service.FileBasedAuthorizationService&lt;/value&gt;
+  &lt;description&gt;Class implementing the AuthorizationService
+  &lt;/description&gt;
+&lt;/property&gt;
+&lt;property&gt;
+  &lt;name&gt;acls.file&lt;/name&gt;
+  &lt;value&gt;/apache/safe/acls.xml&lt;/value&gt;
+  &lt;description&gt;File containing acls for authorization
+  &lt;/description&gt;
+&lt;/property&gt;
+&lt;property&gt;
+  &lt;name&gt;groupservice.impl&lt;/name&gt;
+  &lt;value&gt;org.apache.safe.service.ShellBasedGroupService&lt;/value&gt;
+  &lt;description&gt;Class implementing the GroupService
+  &lt;/description&gt;
+&lt;/property&gt;
+&lt;property&gt;
+  &lt;name&gt;keyservice.impl&lt;/name&gt;
+  &lt;value&gt;org.apache.safe.service.KeyStoreBasedKeyService&lt;/value&gt;
+  &lt;description&gt;Class implementing the KeyService
+  &lt;/description&gt;
+&lt;/property&gt;
+&lt;property&gt;
+  &lt;name&gt;keystore.file&lt;/name&gt;
+  &lt;value&gt;/apache/safe/passwords.jceks&lt;/value&gt;
+  &lt;description&gt;file storing keys
+  &lt;/description&gt;
+&lt;/property&gt;
+&lt;property&gt;
+  &lt;name&gt;keystore.password.file&lt;/name&gt;
+  &lt;value&gt;/apache/safe/password.properties&lt;/value&gt;
+  &lt;description&gt;file storing password to keystore
+  &lt;/description&gt;
+&lt;/property&gt;
+&lt;/configuration&gt;</pre>
+</div>
+</div>
+
+      </div>
+    </div>
+    <div class="clear">
+      <hr/>
+    </div>
+    <div id="footer">
+      <div class="xright">&#169;  
+          2001-2012
+    
+          
+  
+
+  
+    
+  
+  
+    
+  </div>
+      <div class="clear">
+        <hr/>
+      </div>
+    </div>
+  </body>
+</html>

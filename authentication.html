@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Maven - </title>
+    <style type="text/css" media="all">
+      @import url("./css/maven-base.css");
+      @import url("./css/maven-theme.css");
+      @import url("./css/site.css");
+    </style>
+    <link rel="stylesheet" href="./css/print.css" type="text/css" media="print" />
+          </head>
+  <body class="composite">
+    <div id="banner">
+                  <a href="http://maven.apache.org/" id="bannerLeft">
+    
+                                    <img src="http://maven.apache.org/images/apache-maven-project.png" alt="" />
+    
+            </a>
+                          <span id="bannerRight">
+    
+                                    <img src="http://maven.apache.org/images/maven-small.gif" alt="" />
+    
+            </span>
+            <div class="clear">
+        <hr/>
+      </div>
+    </div>
+    <div id="breadcrumbs">
+          
+  
+
+  
+    
+  
+  
+    
+            <div class="xleft">
+        Last Published: 2012-07-23
+                      </div>
+            <div class="xright">            <a href="http://www.apache.org/" class="externalLink">Apache</a>
+            |
+                <a href="http://github.com/benoyantony/keytool-ext/wiki" class="externalLink">keytool-ext</a>
+            
+  
+
+  
+    
+  
+  
+    
+  </div>
+      <div class="clear">
+        <hr/>
+      </div>
+    </div>
+    <div id="leftColumn">
+      <div id="navcolumn">
+           
+  
+
+  
+    
+  
+  
+    
+                   <h5>Maven 2.0</h5>
+            <ul>
+              
+    <li class="none">
+                    <a href="index.html">Main</a>
+          </li>
+              
+    <li class="none">
+                    <a href="faq.html">FAQ</a>
+          </li>
+              
+    <li class="none">
+                    <a href="javaclient.html">Example</a>
+          </li>
+          </ul>
+                                           <a href="http://maven.apache.org/" title="Built by Maven" class="poweredBy">
+            <img alt="Built by Maven" src="./images/logos/maven-feather.png"></img>
+          </a>
+                       
+  
+
+  
+    
+  
+  
+    
+        </div>
+    </div>
+    <div id="bodyColumn">
+      <div id="contentBox">
+        <div class="section"><h2>Authentication</h2>
+<p><a class="externalLink" href="http://benoyantony.github.com/safe/"> Go back</a> </p>
+<p>Safe uses Alfredo library for authentication. Alfredo provides the following authentication mechanisms - 1) SPNego based authentication 2) Simple authentication using URL parameters. It is possible to develop and plug in additional authentication mechanisms. By default, Simple authentication is configured. This is done in WEB-INF/web.xml To enable kerberos authentication, learn more about Alfredo at <a class="externalLink" href="http://cloudera.github.com/alfredo/docs/latest/index.html">http://cloudera.github.com/alfredo/docs/latest/index.html</a></p>
+<div class="source"><pre>  &lt;filter&gt;
+        &lt;filter-name&gt;simpleFilter&lt;/filter-name&gt;
+        &lt;filter-class&gt;com.cloudera.alfredo.server.AuthenticationFilter&lt;/filter-class&gt;
+        &lt;init-param&gt;
+            &lt;param-name&gt;type&lt;/param-name&gt;
+            &lt;param-value&gt;simple&lt;/param-value&gt;
+        &lt;/init-param&gt;
+        &lt;init-param&gt;
+            &lt;param-name&gt;token.validity&lt;/param-name&gt;
+            &lt;param-value&gt;30&lt;/param-value&gt;
+        &lt;/init-param&gt;
+        &lt;init-param&gt;
+            &lt;param-name&gt;cookie.domain&lt;/param-name&gt;
+            &lt;param-value&gt;localhost&lt;/param-value&gt;
+        &lt;/init-param&gt;
+        &lt;init-param&gt;
+            &lt;param-name&gt;cookie.path&lt;/param-name&gt;
+            &lt;param-value&gt;/&lt;/param-value&gt;
+        &lt;/init-param&gt;
+        &lt;init-param&gt;
+            &lt;param-name&gt;simple.anonymous.allowed&lt;/param-name&gt;
+            &lt;param-value&gt;false&lt;/param-value&gt;
+        &lt;/init-param&gt;
+    &lt;/filter&gt;
+
+    &lt;filter-mapping&gt;
+        &lt;filter-name&gt;simpleFilter&lt;/filter-name&gt;
+        &lt;url-pattern&gt;*&lt;/url-pattern&gt;
+    &lt;/filter-mapping&gt;</pre>
+</div>
+</div>
+
+      </div>
+    </div>
+    <div class="clear">
+      <hr/>
+    </div>
+    <div id="footer">
+      <div class="xright">&#169;  
+          2001-2012
+    
+          
+  
+
+  
+    
+  
+  
+    
+  </div>
+      <div class="clear">
+        <hr/>
+      </div>
+    </div>
+  </body>
+</html>
