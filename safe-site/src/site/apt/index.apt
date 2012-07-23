@@ -19,7 +19,7 @@ It is easy to plug in different mechanisms for authentication,authorization and 
 
 * User Documentation
 
-    {{{ installation.html} Download and Installation}}	
+    {{{ installation.html} Download and Setup}}	
     {{{ authentication.html} Authentication}}\
     {{{ authorization.html} Authorization}}\
     {{{ keystorage.html} Key Storage}}\

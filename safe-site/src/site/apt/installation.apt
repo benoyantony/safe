@@ -5,7 +5,7 @@ Download
    Download the safe.war file from {{https://github.com/benoyantony/safe/downloads}}
 
 
-Installation
+Setup
 
    1. Setup ACL file at/apache/safe/acls.xml
 
